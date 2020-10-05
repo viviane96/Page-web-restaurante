@@ -2,18 +2,25 @@
 body
 {
     background-color:whitesmoke;
+   
 }
 
 div#top-bar 
 {
-    background: violet;
+   background: url(../images/nordestinas_topbar.png)no-repeat;
+   margin-left: 160px; 
+   margin-right: 100px;
+   margin-top: -10px;
+
 }
-/*
+
 div#top-bar img
 {
-    width: 50%;
-    height: 50%;
-}*/
+    position: relative;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
 #slide-bar
 {
     background: yellow;
