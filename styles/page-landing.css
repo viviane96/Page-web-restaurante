@@ -1,4 +1,37 @@
 
-body{
+body
+{
     background-color:whitesmoke;
+}
+
+div#top-bar 
+{
+    background: violet;
+}
+
+#slide-bar
+{
+    background: yellow;
+}
+.content-box
+{
+    background: skyblue;
+}
+
+form#form-reservar
+{
+    background: purple;
+}
+
+#entrega
+{
+    background: green;
+}
+#local-maps
+{
+    background: grey;
+}
+footer#footer-menu-inferior
+{
+    background: firebrick;
 }
