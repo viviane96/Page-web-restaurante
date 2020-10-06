@@ -2,15 +2,23 @@
 body
 {
     background-color:whitesmoke;
-   
+    
 }
-
+div#container
+{
+    background: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 div#top-bar 
 {
    background: url(../images/nordestinas_topbar.png)no-repeat;
    margin-left: 160px; 
    margin-right: 100px;
    margin-top: -10px;
+   /*position: relative;*/
 
 }
 
@@ -46,4 +54,12 @@ form#form-reservar
 footer#footer-menu-inferior
 {
     background: firebrick;
+}
+
+@media (max-width: 800px)
+{
+    div#top-bar 
+    {
+       max-width: 600px;
+    }   
 }
