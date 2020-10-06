@@ -2,23 +2,29 @@
 body
 {
     background-color:whitesmoke;
-    
+
 }
+
 div#container
 {
+    width: 1020px;
     background: chocolate;
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+   
 }
 div#top-bar 
 {
    background: url(../images/nordestinas_topbar.png)no-repeat;
-   margin-left: 160px; 
+   margin-left: 100px; 
    margin-right: 100px;
    margin-top: -10px;
-   /*position: relative;*/
+   position: relative;
 
 }
 
@@ -29,6 +35,10 @@ div#top-bar img
     margin-top: 15px;
 }
 
+nav#menu li
+{
+    display: inline;
+}
 #slide-bar
 {
     background: yellow;
@@ -53,9 +63,18 @@ form#form-reservar
 }
 footer#footer-menu-inferior
 {
-    background: firebrick;
+    background: url(../images/nordestinas_footerbar.png) no-repeat;
+    height: 200px;
+    margin-left: 100px; 
+    margin-right: 100px;
+    margin-top: -10px;
+    position: relative;
 }
-
+nav#menu-footer li
+{
+    display: inline;
+}
+/*
 @media (max-width: 800px)
 {
     div#top-bar 
