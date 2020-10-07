@@ -59,6 +59,17 @@ nav#menu li
 {
     background: yellow;
 }
+
+#content 
+{
+    
+    background-color: teal;
+    display: flexbox;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+}
 .content-box
 {
     background: skyblue;
