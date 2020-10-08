@@ -57,7 +57,38 @@ nav#menu li
 }
 #slide-bar
 {
-    background: yellow;
+    background: url(../images/nordestinas_slidebar.jpg)no-repeat;
+    height: 200px;
+    color: white;    
+}
+#slide-bar div
+{
+    display: inline-block;
+}
+#text-slide-bar
+{
+    width: 400px;
+    background: violet;
+}
+#slide-bar p
+{
+    margin-left: 10px;
+}
+#img-slide-bar 
+{
+    width: 400px;
+    background: turquoise;
+}
+#img-slide-bar p
+{
+    display: inline;
+}
+#slide-bar img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 20px;
 }
 
 #content 
