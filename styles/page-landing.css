@@ -79,6 +79,7 @@ nav#menu li
 {
     width: 400px;
     background: turquoise;
+    padding-top: 50px;
 }
 #img-slide-bar p
 {
@@ -108,13 +109,20 @@ nav#menu li
     width: 500px;
     height: 500px;
     background: black;
+    align-items: center;
+    justify-content: center;
+    
 }
 .content-box
 {
-    background: skyblue;
-    width: 150px;
-    height: 150px;
+    background: url(../images/nordestinas_pratos.jpg)no-repeat;
+    width: 160px;
+    height: 160px;
+    display: block;     
+    float:left;
     margin-left: 60px;
+    margin-top: 30px;
+    overflow: hidden;
     
 }
 
