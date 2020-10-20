@@ -57,6 +57,10 @@ nav#menu li
     display: inline;
     padding-left: 10px;
 }
+nav#menu a
+{
+    text-decoration: none;
+}
 #slide-bar
 {
     background: url(../images/nordestinas_slidebar.jpg)no-repeat;
@@ -165,6 +169,10 @@ nav#menu-footer li
 {
     display: inline;
     font-size: 12px;
+}
+nav#menu-footer a
+{
+    text-decoration: none;
 }
 /*
 @media (max-width: 800px)
