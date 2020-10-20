@@ -3,73 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../styles/page-landing.css">
+    <link rel="stylesheet" href="../../public/styles/page-landing.css">
      <title>Nordestinas: comidas típicas</title>
    
 </head>
 <body>
-        [imagem nordestinas_logo]
-
-        <ul>
-            <li><a href="https://www.google.com/">Início</a></li>
-            <li><a href="#">Cardápio</a></li>
-            <li><a href="#">Reservas</a></li>
-            <li><a href="#">Marmitex</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
-    <div id="slide-bar">
-        [seta] Promoção do mês do Nordestinas!
-        Consumindo acima de R$60,00 reais, você pode escolher entre uma das opções dos nossos quitutes nordestinos e não pagará a mais por isso!
-        2 acarajés ou 2 tapiocas ou 2 porções de cuscuz [seta]
-        [bolinhas (talvez cactos) representando a imagem do slidebar]
-    </div>    
-    <class id="content-box">
-        [imagem nordestinas_pratos]
-        saiba mais[seta]
-    </class>
-    <class id="content-box">
-        [imagem nordestinas_espaco]
-        saiba mais[seta]
-    </class>
-    <class id="content-box">
-        [imagem nordestinas_show]
-        saiba mais[seta]
-    </class>
-    <class id="content-box">
-        [imagem nordestinas_visitantes]
-        saiba mais[seta]
-    </class>
-
-    <form id="form-reservar">
-        Faça sua reserva 
-        [seta_legal]
-        Nome:
-        DD/MM/AAAA 
-        Nº de pessoas
-        Hora
-        Min
-        Telefone
-        Mensagem
-        Aguarde contato para confirmação da reserva
-        [botão_enviar]
-    </form>
-    <div id="entrega">
-        [imagem nordestina_entrega]
-        Entrega arretada!
-        (71)99999-9999[whatsapp_logo]
-    </div>
-    <div id="local-maps">
-        [imagem nordestinas_local(ver se consigo jogar pro maps)]
-        Rua Luiz Gonzaga, s/n 
-        Salvador, Bahia
-    </div>
+    <div id="container">
+        <div id="top-bar">
+            <img src="../../public/images/nordestinas_logo.png" alt="Nordestinas, comidas típicas do Norfdeste">
+            <nav id="menu">
+                <ul>
+                    <li>INÍCIO</li>
+                    <li>CARDÁPIO</li>
+                    <li>RESERVAS</li>
+                    <li>MARMITEX</li>
+                    <li>CONTATO</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="content">
+            <div id="slide-bar">
+                <div id="text-slide-bar">
+                    [seta] Promoção do mês do Nordestinas!</br>
+                    Consumindo acima de R$60,00 reais, você pode escolher entre uma das opções dos nossos quitutes nordestinos e não pagará a mais por isso!
+                </div>
+                <div id="img-slide-bar">
+                    <p>2 acarajés</p><p>2 tapiocas</p><p>2 porções de cuscuz</p>
+                    <img src="../../public/images/nordestinas_acaraje.jpg">ou
+                    <img src="../../public/images/nordestinas_tapioca.jpg">ou
+                    <img src="../../public/images/nordestinas_cuscuz.jpg">
+                </div>
+                [seta]
+                [bolinhas (talvez cactos) representando a imagem do slidebar]
+            </div>               
+            <div id="content-box-area">
+                <div class="content-box">
+                    <img src="../../public/images/nordestinas_pratos.jpg" alt="pratos típicos do Nordeste">
+                    <p>saiba mais[seta]</p>
+                </div>
+                <div class="content-box">
+                   <img src="../../public/images/Nordestinas_espaco.jpg" alt="espaço aconchegante">
+                   <p>saiba mais[seta]</p>
+                </div>
+                <div class="content-box">
+                    <img src="../images/nordestinas_show.jpg" alt="shows">
+                    <p>saiba mais[seta]</p>
+                </div>
+                <div class="content-box">
+                     <img src="../../public/images/nordestinas_visitantes.jpg" alt="visitas ilustres"> 
+                   <p>saiba mais[seta]</p>
+                </div>
+            </div>
+            <form id="form-reservar">
+                Faça sua reserva 
+                [seta_legal]
+                Nome:
+                DD/MM/AAAA 
+                Nº de pessoas
+                Hora
+                Min
+                Telefone
+                Mensagem
+                Aguarde contato para confirmação da reserva
+                [botão_enviar]
+            </form>
+            <div id="entrega">
+                [imagem nordestina_entrega]
+                Entrega arretada!
+                (71)99999-9999[whatsapp_logo]
+            </div>
+            <div id="local-maps">
+                [imagem nordestinas_local(ver se consigo jogar pro maps)]
+                Rua Luiz Gonzaga, s/n 
+                Salvador, Bahia
+            </div>
+        </div>
     <footer id="footer-menu-inferior">
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Cardápio</a></li>
-            <li><a href="#">Reservas</a></li>
-            <li><a href="#">Marmitex</a></li>
-            <li><a href="#">Contato</a></li>
-        </ul>
+        <nav id="menu-footer">
+            <ul>
+                <li>INÍCIO</li>
+                <li>CARDÁPIO</li>
+                <li>RESERVAS</li>
+                <li>MARMITEX</li>
+                <li>CONTATO</li>
+            </ul>
+        </nav>
     </footer>
+</div>
 </body>
