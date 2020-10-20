@@ -1,4 +1,174 @@
 
 body{
     background-color:whitesmoke;
+    background: url(../images/nordestinas_slidebar.jpg);
 }
+
+
+/* Não sei o que aconteceu que perdi todas as linhas abaixo. Como não consegui fazer pull do que estava no git hub, eu simplesmente copiei todo o cógigo de lá e colei aqui*/
+div#container
+{
+    width: 1020px;
+    height: 760px;
+    background: #ffffff;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12pt;
+   
+}
+div#top-bar 
+{
+   background: url(../images/nordestinas_topbar.png)no-repeat;
+   margin-left: 100px; 
+   margin-right: 100px;
+   margin-top: -10px;
+   padding-bottom: 10px;
+   position: relative;
+   font-family: Verdana, Geneva, Tahoma, sans-serif; 
+   color: white;
+   border: yellowgreen 1px;
+   display: flex;
+}
+
+div#top-bar img
+{
+    position: relative;
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 15%;
+    height: 15%;
+}
+nav#menu ul
+{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+nav#menu li
+{
+    display: inline;
+    padding-left: 10px;
+}
+#slide-bar
+{
+    background: url(../images/nordestinas_slidebar.jpg)no-repeat;
+    height: 200px;
+    color: white;    
+}
+#slide-bar div
+{
+    display: inline-block;
+}
+#text-slide-bar
+{
+    width: 400px;
+    background: violet;
+    margin-left: 10px;
+}
+#slide-bar p
+{
+    margin-left: 10px;
+}
+#img-slide-bar 
+{
+    width: 400px;
+    background: turquoise;
+    padding-top: 50px;
+}
+#img-slide-bar p
+{
+    display: inline;
+    margin-left: 30px;
+}
+#slide-bar img
+{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#content 
+{
+    
+    background-color: teal;
+    display: flexbox;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-content: center;
+}
+#content-box-area
+{
+    width: 500px;
+    height: 500px;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content-box
+{
+    background: url(../images/nordestinas_pratos.jpg)no-repeat;
+    width: 160px;
+    height: 160px;
+    display: block;     
+    float:left;
+    margin-left: 60px;
+    margin-top: 30px;
+    overflow: hidden;
+    
+}
+
+form#form-reservar
+{
+    background: purple;
+}
+
+#entrega
+{
+    background: green;
+}
+#local-maps
+{
+    background: grey;
+}
+footer#footer-menu-inferior
+{
+    background: url(../images/nordestinas_footerbar.png) no-repeat;
+    height: 200px;
+    margin-left: 100px; 
+    margin-right: 100px;
+    margin-top: 10px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+     color: white;
+}
+nav#menu-footer ul
+{
+    
+    margin-left: 200px;
+    margin-top: 20px;
+    display: inline-block;
+}
+nav#menu-footer li
+{
+    display: inline;
+    font-size: 12px;
+}
+/*
+@media (max-width: 800px)
+{
+    div#top-bar 
+    {
+       max-width: 600px;
+    }   
