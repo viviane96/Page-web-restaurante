@@ -56,7 +56,12 @@ nav#menu li
 {
     display: inline;
     padding-left: 10px;
-}
+ }
+/*
+nav#menu li a:hover
+{ //fazer com javaScript mai pra frente)
+    background: url(../images/icon_menu.png)no-repeat;
+}*/
 nav#menu a
 {
     text-decoration: none;
@@ -69,13 +74,16 @@ nav#menu a
 }
 #slide-bar div
 {
-    display: inline-block;
+    display: inline-table;
 }
 #text-slide-bar
 {
     width: 400px;
-    background: violet;
+  /*  background: violet;*/
     margin-left: 10px;
+    margin-top: 0px;
+    font-size: 11px;
+    font-family: 'Tahoma, sans-serif';
 }
 #slide-bar p
 {
@@ -84,7 +92,7 @@ nav#menu a
 #img-slide-bar 
 {
     width: 400px;
-    background: turquoise;
+    /*background: turquoise;*/
     padding-top: 50px;
 }
 #img-slide-bar p
@@ -103,7 +111,7 @@ nav#menu a
 #content 
 {
     
-    background-color: teal;
+  /*  background-color: teal;*/
     display: flexbox;
     flex-direction: row;
     margin-left: 100px;
@@ -114,7 +122,7 @@ nav#menu a
 {
     width: 500px;
     height: 500px;
-    background: black;
+    /*background: black;*/
     align-items: center;
     justify-content: center;
     
@@ -130,17 +138,17 @@ nav#menu a
     margin-top: 30px;
     overflow: hidden;
     
-}
+}/*
 
 form#form-reservar
 {
-    background: purple;
+   /* background: purple;
 }
 
 #entrega
 {
-    background: green;
-}
+   background: green;
+}*/
 #local-maps
 {
     background: grey;
